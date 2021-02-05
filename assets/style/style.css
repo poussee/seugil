@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700;900&display=swap");
 
 html,
 body,
@@ -192,10 +192,9 @@ body {
   height: 100vh;
 }
 
-.bg-produtos{
+.bg-produtos {
   background: #acacac;
 }
-
 
 .menu {
   background-color: #fff;
@@ -244,10 +243,31 @@ body {
   border-bottom: 3px solid #ffc10e;
 }
 
-.main-header .menu ul a:hover img{
+.main-header .menu ul a:hover img {
   transform: scale(1.1);
 }
 
+.compre a {
+  color: #ffc10e !important;
+  margin-left: 20px;
+}
+
+.fisica a {
+  border: 1px solid #ffc10e;
+  padding: 5px 20px !important;
+  border-radius: 20px;
+}
+
+.juridica a {
+  border: 1px solid #ffc10e;
+  background: #ffc10e;
+  padding: 5px 20px !important;
+  border-radius: 20px;
+}
+
+.juridica a:hover {
+  color: rgba(0, 0, 0, 0.17) !important;
+}
 
 @media (max-width: 768px) {
   .main-header {
@@ -264,7 +284,7 @@ body {
     background-size: cover;
     height: 100vh;
   }
-  
+
   .bg-negocio {
     background: url("../img/para-negocio/bg-negocio.png") no-repeat center;
     background-size: cover;
@@ -283,14 +303,11 @@ body {
   .header-home .header-text p {
     width: 100% !important;
   }
-
-
 }
 
 .header-home .header-text {
   text-align: left;
 }
-
 
 .btn-red {
   background: var(--bggradient);
@@ -314,7 +331,6 @@ body {
   -webkit-box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.17);
   box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.17);
 }
-
 
 .btn-red a {
   color: #fff;
@@ -348,7 +364,6 @@ body {
   box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.17);
 }
 
-
 .btn-blue a {
   color: #fff;
 }
@@ -373,7 +388,7 @@ body {
 }
 
 .btn-yellow:hover {
-  background:var(--purple-gil);
+  background: var(--purple-gil);
   color: var(--yellow-gil);
   cursor: pointer;
   letter-spacing: 0.02rem;
@@ -382,7 +397,7 @@ body {
 }
 
 .btn-yellow a {
-  color:var(--purple-gil);
+  color: var(--purple-gil);
 }
 
 .btn-yellow:hover a {
@@ -474,7 +489,7 @@ body {
 
 .confiar {
   padding-top: 100px;
-  background: url('/assets/img/bg-gradient.png');
+  background: url("/assets/img/bg-gradient.png");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -482,7 +497,6 @@ body {
   overflow-y: hidden;
   padding: 100px 0;
 }
-
 
 .confiar .row .col-md-12 {
   color: #fff;
@@ -495,7 +509,6 @@ body {
   font-weight: 700;
   line-height: 3rem;
 }
-
 
 .confiar .row .col-md-4 h4 {
   color: var(--yellow-gil);
@@ -547,11 +560,7 @@ body {
   text-decoration: none;
 }
 
-
 @media (max-width: 768px) {
-
-    
-
   .confiar .row .col-md-6 .cartao-about {
     text-align: center !important;
   }
@@ -562,7 +571,7 @@ body {
   }
 
   .slick-slide img {
-    display: initial!important;
+    display: initial !important;
   }
 
   .varejo .row .text-white {
@@ -570,7 +579,6 @@ body {
     text-align: center;
   }
 }
-
 
 /* Section-2 marcas */
 
@@ -589,7 +597,7 @@ body {
 }
 
 .marcas .row .logomarcas {
-  padding: 0vmin 10vmin ;
+  padding: 0vmin 10vmin;
 }
 
 .marcas .text-white h2 {
@@ -617,7 +625,7 @@ body {
   line-height: 2rem;
 }
 
-.marcas  p {
+.marcas p {
   color: var(--purple-gil);
   font-size: 20px;
   font-weight: 500;
@@ -637,7 +645,7 @@ body {
 }
 
 .slick-dots {
-  bottom: initial!important;
+  bottom: initial !important;
 }
 
 @media (max-width: 768px) {
@@ -647,41 +655,32 @@ body {
   }
 }
 
-
 .marcas .col-md-3 img:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
 
-
 /* ---------- Marcas ----------- */
 
-.numeros .icon-one { 
+.numeros .icon-one {
   border-right: 1px solid #fff;
 }
 
-.numeros .icon-two { 
+.numeros .icon-two {
   border-right: 1px solid #fff;
 }
 
-.numeros .icon-three { 
+.numeros .icon-three {
   border-right: 1px solid #fff;
 }
 
 @media (max-width: 768px) {
-  .numeros .title-content { 
+  .numeros .title-content {
     border-right: none;
   }
 }
 
-
-
-
-
-
 /* texts */
-
-
 
 .text-white {
   color: #fff;
@@ -706,7 +705,6 @@ body {
   margin-top: 10px;
   text-decoration: none;
 }
-
 
 .title-form {
   color: var(--purple-gil);
@@ -734,8 +732,9 @@ body {
   text-decoration: none;
 }
 
-::placeholder { /* Most modern browsers support this now. */
-  color: var(--purple-gil)!important;
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: var(--purple-gil) !important;
 }
 
 /* Section-2 produtos */
@@ -760,14 +759,12 @@ body {
   font-weight: 700;
 }
 
-
-
 /* -------------------- */
 
 /* Section-2 produtos */
 
 .vantagens {
-  background: url('/assets/img/bg-gradient.png');
+  background: url("/assets/img/bg-gradient.png");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -789,7 +786,6 @@ body {
   text-decoration: none;
 }
 
-
 .vantagens .features {
   padding-left: 16em;
 }
@@ -797,8 +793,6 @@ body {
 .vantagens .features ul li {
   margin-bottom: 5px;
 }
-
-
 
 @media only screen and (max-width: 768px) {
   .vantagens .features {
@@ -808,7 +802,6 @@ body {
   .features {
     padding: 0 1em;
   }
-
 }
 
 .players {
@@ -817,10 +810,9 @@ body {
 
 @media only screen and (max-width: 768px) {
   .players {
-    padding:initial;
+    padding: initial;
   }
 }
-
 
 /* Section trabalhe */
 
@@ -888,7 +880,6 @@ body {
   .trabalhe .row .text-blue {
     text-align: center;
   }
-  
 }
 
 .forms {
@@ -910,7 +901,7 @@ body {
 }
 
 .fazemos .row .logomarcas {
-  padding: 0vmin 25vmin ;
+  padding: 0vmin 25vmin;
 }
 
 .fazemos .text-white h2 {
@@ -938,7 +929,7 @@ body {
   line-height: 2rem;
 }
 
-.fazemos  p {
+.fazemos p {
   color: var(--purple-gil);
   font-size: 20px;
   font-weight: 500;
@@ -946,7 +937,7 @@ body {
   text-decoration: none;
 }
 
-.fazemos  img {
+.fazemos img {
   border-radius: 8px;
   transition: all ease 0.4s;
   margin: 2em;
@@ -1022,7 +1013,6 @@ body {
   padding-right: 6px;
 }
 
-
 /* Forms */
 
 .forms input {
@@ -1044,7 +1034,7 @@ body {
 /* Footer */
 
 .footer {
-  background: url('/assets/img/bg-footer.png');
+  background: url("/assets/img/bg-footer.png");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -1062,3 +1052,14 @@ body {
   background: #a7a7a7;
 }
 
+.marcasMais {
+  display: flex;
+  align-items: center;
+}
+
+.marcasMais img {
+  max-width: 100%;
+  display: block;
+  width: 170px;
+  margin: 0 auto;
+}
