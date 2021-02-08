@@ -175,9 +175,10 @@ body {
   background: url("../img/bg-header.png") no-repeat bottom;
   background-size: cover;
   height: 100vh;
-  padding-top: 15%;
+  padding-top: 10%;
   background-color: #b1b1b1;
   background-blend-mode: darken;
+  overflow: hidden;
 }
 
 .bg-voce {
