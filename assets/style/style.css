@@ -903,6 +903,7 @@ body {
 }
 
 .fazemos .row .logomarcas {
+	display: flex;
 	padding: 0vmin 25vmin;
 }
 
@@ -1126,6 +1127,14 @@ body {
 
 .style-correction {
 	margin-top: 25%;
+}
+
+.logo {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+
+	height: 133px;
 }
 
 @media (max-width: 768px) {
