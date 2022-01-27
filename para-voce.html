@@ -339,7 +339,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-12 text-center">
-            <form action="#">
+            <form action="https://formsubmit.co/contecomigo@seugil.com" method="POST" />
               <fieldset>
                 <!-- Form Name -->
                 <legend class="text-purple title-form">
@@ -421,12 +421,12 @@ Mensagem</textarea
                     >
                   </div>
                 </div>
-
+                <input type="hidden" name="_captcha" value="false">
                 <!-- Button -->
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="enviar"></label>
                   <div class="col-md-auto">
-                    <button id="enviar" name="enviar" class="btn-yellow">
+                    <button id="enviar" name="enviar" class="btn-yellow" onclick="validarForm()">
                       Enviar mensagem
                     </button>
                   </div>
@@ -459,3 +459,4 @@ Mensagem</textarea
 <script src="./Content/Plugins/scrollTo/jquery.localScroll.js"></script>
 <script src="./Scripts/main.js"></script>
 <script src="./Content/Plugins/Bootstrap/bootstrap.min.js"></script>
+<script src="scripts/formConfirm.js"></script>
